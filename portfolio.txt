@@ -1,0 +1,27 @@
+* HOME
+home__social
+https://www.linkedin.com/
+https://github.com/
+
+home__description
+
+
+* ABOUT
+about__description
+
+about__info-name
+
+
+* PORTFOLIO
+portfolio__description
+
+
+* PROJECT
+project__description
+
+
+* FOOTER
+footer__social
+https://www.instagram.com/
+
+
