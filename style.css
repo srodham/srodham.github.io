@@ -1,45 +1,53 @@
 body {
     font-family: 'Helvetica Neue', sans-serif;
-    background: #fef6f6;
+    background: #fff0f5; /* Light pink */
     color: #374151;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 800px;
+    max-width: 850px;
     margin: auto;
-    background: #f3e8ff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    background: #f3e8ff; /* Lavender blush */
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    border: 2px solid #e9d5ff;
 }
 
 .profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 25px;
+    border: 5px solid #c4b5fd;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
     text-align: center;
-    color: #374151;
+    color: #6b21a8; /* Rich purple */
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
 }
 
 button {
     background-color: #a78bfa;
     color: white;
     border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    padding: 12px 20px;
+    border-radius: 8px;
     cursor: pointer;
-    margin-bottom: 20px;
+    font-size: 16px;
+    margin: 20px auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    transition: background 0.3s ease;
 }
 
 button:hover {
@@ -48,6 +56,12 @@ button:hover {
 
 .hidden {
     display: none;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #e9d5ff;
+    margin: 30px 0;
 }
 
 .projects {
@@ -59,31 +73,47 @@ button:hover {
 
 .project {
     background: #e0d9ff;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    padding: 20px;
+    border-radius: 12px;
+    border-left: 6px solid #a78bfa;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
+}
+
+.project h3 {
+    color: #7c3aed;
 }
 
 .project a {
     color: #6366f1;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .social {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .social a {
-    margin: 0 10px;
-    color: #6366f1;
+    margin: 0 12px;
+    color: #7c3aed;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.social a:hover {
+    color: #4c1d95;
 }
 
 footer {
     text-align: center;
     margin-top: 40px;
     font-size: 14px;
-    color: #888;
+    color: #9ca3af;
 }
