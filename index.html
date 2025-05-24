@@ -8,18 +8,18 @@
 </head>
 <body>
     <div class="container">
-        <img src="img/self.jpg" alt="Sophia's photo" class="profile-pic" />
+        <img src="img/profile.jpg" alt="Sophia's photo" class="profile-pic" />
 
         <h1>Hi, I'm Sophia 👋</h1>
-        <!-- <p>Curious learner, creator, and web enthusiast.</p> -->
+        <p>Curious learner, creator, and web enthusiast.</p>
 
+        <!-- Resume Button -->
+        <a href="resume.pdf" class="resume-button" target="_blank">📄 View My Resume</a>
+
+        <!-- Bio Toggle Button -->
         <button onclick="toggleBio()">About Me</button>
         <p id="bio" class="hidden">
-             I am currently a student pursuing a Computer Science degree at Hamilton College 
-             with a strong passion for problem-solving, technology, and teamwork. As a member of 
-             the Women's Ice Hockey team, I have developed resilience, leadership, and collaboration 
-             skills that translate into my academic and professional pursuits. I am particularly interested 
-             in software development, computer systems, and data analysis.
+            I'm passionate about technology, design, and building things that matter. This site is where I share my projects and journey!
         </p>
 
         <hr />
@@ -40,7 +40,7 @@
 
         <hr />
 
-        <h2>Connect with me</h2>
+        <h2>Connect with Me</h2>
         <div class="social">
             <a href="https://github.com/srodham" target="_blank">GitHub</a>
             <a href="https://linkedin.com/in/sophia-rodham" target="_blank">LinkedIn</a>
@@ -52,6 +52,11 @@
         </footer>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        function toggleBio() {
+            const bio = document.getElementById("bio");
+            bio.classList.toggle("hidden");
+        }
+    </script>
 </body>
 </html>
