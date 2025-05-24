@@ -1,33 +1,42 @@
 body {
     font-family: 'Segoe UI', sans-serif;
-    background-color: #d49dfb;
+    background: #f5f7fa;
     color: #333;
     margin: 0;
     padding: 20px;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 800px;
     margin: auto;
-    padding: 20px;
-    background-color: #d49dfb;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 8px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px;
 }
 
 h1 {
+    text-align: center;
     color: #4a90e2;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 16px;
     background-color: #4a90e2;
     color: white;
     border: none;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -38,9 +47,32 @@ button:hover {
     display: none;
 }
 
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.project {
+    background: #f0f4f8;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.project a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.social a {
+    margin-right: 15px;
+    color: #4a90e2;
+    text-decoration: none;
+}
+
 footer {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 40px;
     font-size: 14px;
     color: #888;
 }
