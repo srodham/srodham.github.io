@@ -38,6 +38,10 @@ p {
   text-align: center;
 }
 
+.hidden {
+  display: none;
+}
+
 hr {
   border: none;
   border-top: 2px dashed #93c5fd; 
@@ -63,9 +67,6 @@ button:hover, .resume-button:hover {
   background-color: #2563eb; 
 }
 
-.hidden {
-  display: none;
-}
 
 .projects {
   display: flex;
