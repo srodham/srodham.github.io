@@ -67,6 +67,12 @@ button:hover, .resume-button:hover {
   background-color: #4C191B; /* Deep red */
 }
 
+hr {
+  border: none;
+  border-top: 2px dashed #C589E8;
+  margin: 30px 0;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
