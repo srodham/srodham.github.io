@@ -1,7 +1,7 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  background: #e6f0fa; 
-  color: #1f2937;
+  background: #E3DAFF; /* Soft lavender */
+  color: #4C191B; /* Deep wine for text */
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -11,10 +11,10 @@ body {
   max-width: 1100px;
   margin: 40px auto;
   padding: 40px;
-  background: #ffffff; 
+  background: #ffffff;
   border-radius: 15px;
-  border: 2px solid #3b82f6; 
-  box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25); 
+  border: 2px solid #C589E8; /* Soft purple border */
+  box-shadow: 0 8px 20px rgba(150, 61, 90, 0.15); /* From the raspberry color */
 }
 
 .profile-pic {
@@ -24,13 +24,13 @@ body {
   object-fit: cover;
   display: block;
   margin: 0 auto 25px;
-  border: 5px solid #3b82f6;
-  box-shadow: 0 4px 10px rgba(59, 130, 246, 0.4); 
+  border: 5px solid #C589E8;
+  box-shadow: 0 4px 10px rgba(150, 61, 90, 0.2);
 }
 
 h1, h2 {
   text-align: center;
-  color: #1e40af; 
+  color: #963D5A; /* Raspberry */
   margin-bottom: 10px;
 }
 
@@ -44,12 +44,12 @@ p {
 
 hr {
   border: none;
-  border-top: 2px dashed #93c5fd; 
+  border-top: 2px dashed #C589E8;
   margin: 30px 0;
 }
 
 button, .resume-button {
-  background-color: #3b82f6;
+  background-color: #963D5A;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -64,9 +64,8 @@ button, .resume-button {
 }
 
 button:hover, .resume-button:hover {
-  background-color: #2563eb; 
+  background-color: #4C191B; /* Deep red */
 }
-
 
 .projects {
   display: flex;
@@ -76,25 +75,25 @@ button:hover, .resume-button:hover {
 }
 
 .project {
-  background: #eff6ff; 
+  background: #F5EDFF; /* Lighter lavender shade */
   padding: 20px;
   border-radius: 12px;
-  border-left: 6px solid #3b82f6; 
-  box-shadow: 0 2px 8px rgba(59, 130, 246, 0.15);
+  border-left: 6px solid #C589E8;
+  box-shadow: 0 2px 8px rgba(150, 61, 90, 0.1);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project:hover {
   transform: translateY(-5px);
-  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3); 
+  box-shadow: 0 4px 10px rgba(76, 25, 27, 0.25); /* Deeper hover effect */
 }
 
 .project h3 {
-  color: #2563eb; 
+  color: #963D5A;
 }
 
 .project a {
-  color: #2563eb;
+  color: #963D5A;
   text-decoration: none;
   font-weight: bold;
 }
@@ -106,21 +105,21 @@ button:hover, .resume-button:hover {
 
 .social a {
   margin: 0 12px;
-  color: #2563eb;
+  color: #963D5A;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.2s;
 }
 
 .social a:hover {
-  color: #1e40af;
+  color: #4C191B;
 }
 
 footer {
   text-align: center;
   margin-top: 40px;
   font-size: 14px;
-  color: #64748b;
+  color: #963D5A;
 }
 
 /* Reveal animation */
